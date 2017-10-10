@@ -1,0 +1,6 @@
+framework module EvenlyWrappedLabel {
+  umbrella header "EvenlyWrappedLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

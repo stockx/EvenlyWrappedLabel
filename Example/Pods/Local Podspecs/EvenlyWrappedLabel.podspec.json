@@ -1,0 +1,22 @@
+{
+  "name": "EvenlyWrappedLabel",
+  "version": "0.1.0",
+  "summary": "A short description of EvenlyWrappedLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jeffaburt/EvenlyWrappedLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jeffaburt": "jburt1992@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jeffaburt/EvenlyWrappedLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EvenlyWrappedLabel/Classes/**/*"
+}
