@@ -111,7 +111,7 @@ private extension EvenlyWrappedLabel {
      */
     func findMinimumWidth(maxHeight: CGFloat, maxWidth: CGFloat, testWidth: CGFloat, minWidth: CGFloat) -> CGFloat {
         let granularity: CGFloat = 1
-        let widthCannotShrink = maxWidth <= testWidth + granularity
+        let widthCannotShrink = (maxWidth <= testWidth + granularity) || text?.count == 1
         
         guard widthCannotShrink else {
             let canDecreaseWidthFurther = sizeNeeded(for: testWidth).height <= maxHeight
