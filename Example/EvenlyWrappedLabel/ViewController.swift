@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import EvenlyWrappedLabel
 
 class ViewController: UIViewController {
-    @IBOutlet private weak var label: UILabel!
+    @IBOutlet private weak var label: EvenlyWrappedLabel!
     @IBOutlet private weak var numberOfLinesTextField: UITextField!
     
     @IBOutlet private weak var overrideHeightSwitch: UISwitch!
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet private weak var overrideWidthSwitch: UISwitch!
     @IBOutlet private weak var widthTextField: UITextField!
     
+    @IBOutlet private weak var useEveryLineSwitch: UISwitch!
     @IBOutlet private weak var textAlignmentSegmentedControl: UISegmentedControl!
     @IBOutlet private weak var textView: UITextView!
 
@@ -72,6 +74,8 @@ private extension ViewController {
         case overrideWidthSwitch:
             labelWidthConstraint.priority = isOn ? .defaultHigh : .defaultLow
             widthTextField.isEnabled = isOn
+        case useEveryLineSwitch:
+            label.useEveryLine = isOn
         default:
             break
         }
