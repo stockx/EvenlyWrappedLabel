@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2D3314BAD2678A01AA22A309 /* Pods-EvenlyWrappedLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenlyWrappedLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenlyWrappedLabel_Example/Pods-EvenlyWrappedLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3CA6A6217AAE8122CED25089 /* EvenlyWrappedLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EvenlyWrappedLabel.podspec; path = ../EvenlyWrappedLabel.podspec; sourceTree = "<group>"; };
+		3CA6A6217AAE8122CED25089 /* EvenlyWrappedLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EvenlyWrappedLabel.podspec; path = ../EvenlyWrappedLabel.podspec; sourceTree = "<group>"; };
 		455EB0BBD437D25F6CC35F35 /* Pods_EvenlyWrappedLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvenlyWrappedLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3C00692B30D3DD037889E6 /* Pods-EvenlyWrappedLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenlyWrappedLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvenlyWrappedLabel_Example/Pods-EvenlyWrappedLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EvenlyWrappedLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvenlyWrappedLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* EvenlyWrappedLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvenlyWrappedLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6EB6321451F2F63A99F9B2E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6EB6321451F2F63A99F9B2E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		95CDD737B1C0A216F28D1B50 /* Pods_EvenlyWrappedLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvenlyWrappedLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB003672BED225A63F8AFD9 /* Pods-EvenlyWrappedLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenlyWrappedLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvenlyWrappedLabel_Tests/Pods-EvenlyWrappedLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCD364D901F7BFA1CF6197F2 /* Pods-EvenlyWrappedLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvenlyWrappedLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvenlyWrappedLabel_Tests/Pods-EvenlyWrappedLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F28C4BE82DEA89DDDC0E2CCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F28C4BE82DEA89DDDC0E2CCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

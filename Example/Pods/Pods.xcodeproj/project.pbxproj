@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		132C6A302E08822AE78219E71BDA4B43 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E77BB9A3157DF7A36B7105A05F3E3 /* ReplaceMe.swift */; };
+		1471D290F5AF5A01485BB22DEBA633DD /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC453254AAAA9DC10E756680871878 /* UILabelExtensions.swift */; };
 		1B45930132CE953444FF7A58E2C27CDA /* Pods-EvenlyWrappedLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56982F3239B3E4DEF3BDB659B9E9404B /* Pods-EvenlyWrappedLabel_Tests-dummy.m */; };
-		221D75AC3E597D419E6F0A79DE0A18AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F7BD7E912A67BB5E8C8CE9296264276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		461B127B858C745930957D9CFC19538C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8006B0E1897B62F999E89F53524C7C06 /* EvenlyWrappedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A43E22D93E92C2F2E5CEA31D85BCB3 /* EvenlyWrappedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8889055FD829EBC61B0F6C12931386A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8AFF789196B046E3DF3C0AC7D78DED16 /* EvenlyWrappedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BF882357411DB3DC5105EA791D6C79 /* EvenlyWrappedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F76F914CD7B9D72D6903C81B2B9377 /* Pods-EvenlyWrappedLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E252A43A35263B6DB7358FAA72A96D1 /* Pods-EvenlyWrappedLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A71DCFC023322971562B208EA80D7C15 /* EvenlyWrappedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD59F18B51F414B7C9C07E4C8DE8868 /* EvenlyWrappedLabel.swift */; };
 		A7A0541D0C2BA8F0EABB555E2895B8CE /* Pods-EvenlyWrappedLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AA413951215AA2F0EB883ED5BFE237 /* Pods-EvenlyWrappedLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1EE62BF02A77E50906FDE4153DDFCC0 /* EvenlyWrappedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963884A1FE7E334E7E08454187ACB18 /* EvenlyWrappedLabel-dummy.m */; };
+		ABCA10DF69BB8632FD87F98C501958B0 /* EvenlyWrappedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A064163958FD332D9A0583B04468271 /* EvenlyWrappedLabel-dummy.m */; };
 		BBBEEC6833F8D94526197B6C86945CC4 /* Pods-EvenlyWrappedLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 621E3FE839C2CFDCFD23577DFF17F223 /* Pods-EvenlyWrappedLabel_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -24,30 +25,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA4215F855B71BFC408225FCC3F8E97B;
+			remoteGlobalIDString = 05E4E104DA399DD0CC78DE20C8C5BFA3;
 			remoteInfo = EvenlyWrappedLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		071DFF0794704B9CEF1767E28C28DD08 /* Pods-EvenlyWrappedLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EvenlyWrappedLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0963884A1FE7E334E7E08454187ACB18 /* EvenlyWrappedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EvenlyWrappedLabel-dummy.m"; sourceTree = "<group>"; };
 		0C06420AB576DA6B27DB1CA1645EBDC9 /* Pods_EvenlyWrappedLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EvenlyWrappedLabel_Tests.framework; path = "Pods-EvenlyWrappedLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E252A43A35263B6DB7358FAA72A96D1 /* Pods-EvenlyWrappedLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EvenlyWrappedLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		21D2DD23EDC1813FA8D744A7E289BB7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23AB29E0544A3DC0C128D826E3E40554 /* EvenlyWrappedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EvenlyWrappedLabel-prefix.pch"; sourceTree = "<group>"; };
 		288245835ED806E4C7877A709CDBDD82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD59F18B51F414B7C9C07E4C8DE8868 /* EvenlyWrappedLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EvenlyWrappedLabel.swift; path = EvenlyWrappedLabel/Classes/EvenlyWrappedLabel.swift; sourceTree = "<group>"; };
 		2D29742C2696701B80A6995112E5C902 /* Pods-EvenlyWrappedLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EvenlyWrappedLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		47BF882357411DB3DC5105EA791D6C79 /* EvenlyWrappedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EvenlyWrappedLabel-umbrella.h"; sourceTree = "<group>"; };
 		497D67A4DE9F158C81F9CBC38F057541 /* Pods-EvenlyWrappedLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EvenlyWrappedLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		56982F3239B3E4DEF3BDB659B9E9404B /* Pods-EvenlyWrappedLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EvenlyWrappedLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		61A43E22D93E92C2F2E5CEA31D85BCB3 /* EvenlyWrappedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EvenlyWrappedLabel-umbrella.h"; sourceTree = "<group>"; };
 		621E3FE839C2CFDCFD23577DFF17F223 /* Pods-EvenlyWrappedLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EvenlyWrappedLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		63EB627EBA1262395EDC4B4F679ADACF /* EvenlyWrappedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EvenlyWrappedLabel.modulemap; sourceTree = "<group>"; };
+		640EE20A830F736BCB9C16710E94A26F /* EvenlyWrappedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EvenlyWrappedLabel.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6EA68018BD9C933771D12239AF2A270D /* EvenlyWrappedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EvenlyWrappedLabel.xcconfig; sourceTree = "<group>"; };
-		762E77BB9A3157DF7A36B7105A05F3E3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EvenlyWrappedLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		7B23F20E05EEA389A94BCE0807E97322 /* EvenlyWrappedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EvenlyWrappedLabel.modulemap; sourceTree = "<group>"; };
 		7C7A50AE6C4FE9B62AE7BBC8E5AFFB93 /* EvenlyWrappedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EvenlyWrappedLabel.framework; path = EvenlyWrappedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF4E0C2990D3551EDFE20F3B35B178D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A064163958FD332D9A0583B04468271 /* EvenlyWrappedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EvenlyWrappedLabel-dummy.m"; sourceTree = "<group>"; };
 		90AA413951215AA2F0EB883ED5BFE237 /* Pods-EvenlyWrappedLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EvenlyWrappedLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A2EB48FE9FCDE5B8EFF094F9D1DD42E /* Pods-EvenlyWrappedLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EvenlyWrappedLabel_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -57,27 +56,30 @@
 		C3AF5574CF6CD86A0C52C48B4DDC777A /* Pods-EvenlyWrappedLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EvenlyWrappedLabel_Example.modulemap"; sourceTree = "<group>"; };
 		C459233D7762EBE3726F5900A3BC7D3A /* Pods-EvenlyWrappedLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EvenlyWrappedLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D25DDF31F8CADA7A0B2D9B7F547EF4DC /* Pods-EvenlyWrappedLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EvenlyWrappedLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0B6FBCA9712A6703E51D15EB5CE692A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46C144DE5B01458F068FB40090BBDA0 /* Pods-EvenlyWrappedLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EvenlyWrappedLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E60C4C73FCCB7E44D366AE9822840E1A /* Pods-EvenlyWrappedLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EvenlyWrappedLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E686C53610E6BCE9028AE64296C9DE8F /* Pods-EvenlyWrappedLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EvenlyWrappedLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		F14CC3B38F37065C361E53B89667CDE4 /* EvenlyWrappedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EvenlyWrappedLabel-prefix.pch"; sourceTree = "<group>"; };
 		F2A36CB93E0554CD045142098689819C /* Pods_EvenlyWrappedLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EvenlyWrappedLabel_Example.framework; path = "Pods-EvenlyWrappedLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BC453254AAAA9DC10E756680871878 /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = EvenlyWrappedLabel/Classes/UILabelExtensions.swift; sourceTree = "<group>"; };
 		FE654E18A1EB630DE41DF9D6DD10E4A7 /* Pods-EvenlyWrappedLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EvenlyWrappedLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10D48743A0BFFEAEB102A4203738E266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7BD7E912A67BB5E8C8CE9296264276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E970DE8241530D03D5635033B8ACE82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8889055FD829EBC61B0F6C12931386A4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC834411F509523FFDA067103C18573F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				221D75AC3E597D419E6F0A79DE0A18AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +94,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17A15FE07561305FD7B5C156A83C48D8 /* Development Pods */ = {
+		3704C232BC9B502C8939D925847B311C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1404557BC25CF04D4BEE36B821C9CCF /* EvenlyWrappedLabel */,
+				7B23F20E05EEA389A94BCE0807E97322 /* EvenlyWrappedLabel.modulemap */,
+				640EE20A830F736BCB9C16710E94A26F /* EvenlyWrappedLabel.xcconfig */,
+				8A064163958FD332D9A0583B04468271 /* EvenlyWrappedLabel-dummy.m */,
+				F14CC3B38F37065C361E53B89667CDE4 /* EvenlyWrappedLabel-prefix.pch */,
+				61A43E22D93E92C2F2E5CEA31D85BCB3 /* EvenlyWrappedLabel-umbrella.h */,
+				E0B6FBCA9712A6703E51D15EB5CE692A /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EvenlyWrappedLabel";
 			sourceTree = "<group>";
 		};
 		4F8E1FCE47D0263F0CD08ACB0CBC547B /* Pods-EvenlyWrappedLabel_Tests */ = {
@@ -118,6 +126,14 @@
 			path = "Target Support Files/Pods-EvenlyWrappedLabel_Tests";
 			sourceTree = "<group>";
 		};
+		566D3B4F6DA1B2C6F7C1CB7C8FA8FE09 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5AF6ABE038DD2B422ADC731A76B42F5 /* EvenlyWrappedLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		65F7BDD7AAD6B361884686F70D850C74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,20 +142,6 @@
 				0C06420AB576DA6B27DB1CA1645EBDC9 /* Pods_EvenlyWrappedLabel_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6CF62F584E90606A6874EE1F71E8724C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				63EB627EBA1262395EDC4B4F679ADACF /* EvenlyWrappedLabel.modulemap */,
-				6EA68018BD9C933771D12239AF2A270D /* EvenlyWrappedLabel.xcconfig */,
-				0963884A1FE7E334E7E08454187ACB18 /* EvenlyWrappedLabel-dummy.m */,
-				23AB29E0544A3DC0C128D826E3E40554 /* EvenlyWrappedLabel-prefix.pch */,
-				47BF882357411DB3DC5105EA791D6C79 /* EvenlyWrappedLabel-umbrella.h */,
-				21D2DD23EDC1813FA8D744A7E289BB7C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EvenlyWrappedLabel";
 			sourceTree = "<group>";
 		};
 		74DCDE6FC435E17A2ADB6FFB584B625A /* Pods-EvenlyWrappedLabel_Example */ = {
@@ -164,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				17A15FE07561305FD7B5C156A83C48D8 /* Development Pods */,
+				566D3B4F6DA1B2C6F7C1CB7C8FA8FE09 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				65F7BDD7AAD6B361884686F70D850C74 /* Products */,
 				A5D902D4C73F63A09F3FC9A002FFF902 /* Targets Support Files */,
@@ -180,22 +182,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B1404557BC25CF04D4BEE36B821C9CCF /* EvenlyWrappedLabel */ = {
-			isa = PBXGroup;
-			children = (
-				762E77BB9A3157DF7A36B7105A05F3E3 /* ReplaceMe.swift */,
-				6CF62F584E90606A6874EE1F71E8724C /* Support Files */,
-			);
-			name = EvenlyWrappedLabel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5AF6ABE038DD2B422ADC731A76B42F5 /* EvenlyWrappedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2BD59F18B51F414B7C9C07E4C8DE8868 /* EvenlyWrappedLabel.swift */,
+				F3BC453254AAAA9DC10E756680871878 /* UILabelExtensions.swift */,
+				3704C232BC9B502C8939D925847B311C /* Support Files */,
+			);
+			name = EvenlyWrappedLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -225,17 +228,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B278887F14180A3B9549E39240159220 /* Headers */ = {
+		E6D6CD3CDFBAC082EFBF925515694EFA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AFF789196B046E3DF3C0AC7D78DED16 /* EvenlyWrappedLabel-umbrella.h in Headers */,
+				8006B0E1897B62F999E89F53524C7C06 /* EvenlyWrappedLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		05E4E104DA399DD0CC78DE20C8C5BFA3 /* EvenlyWrappedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83019826C49E0DAB1FC612FD154F4A83 /* Build configuration list for PBXNativeTarget "EvenlyWrappedLabel" */;
+			buildPhases = (
+				8C968D8D2F8523D58D95FCFBD27A79B5 /* Sources */,
+				10D48743A0BFFEAEB102A4203738E266 /* Frameworks */,
+				E6D6CD3CDFBAC082EFBF925515694EFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvenlyWrappedLabel;
+			productName = EvenlyWrappedLabel;
+			productReference = 7C7A50AE6C4FE9B62AE7BBC8E5AFFB93 /* EvenlyWrappedLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A33A1E4BBD71DD12DFDF46FADB6E3533 /* Pods-EvenlyWrappedLabel_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EA79C8E16E8E453CA6848C74C5DFDF0 /* Build configuration list for PBXNativeTarget "Pods-EvenlyWrappedLabel_Tests" */;
@@ -251,23 +271,6 @@
 			name = "Pods-EvenlyWrappedLabel_Tests";
 			productName = "Pods-EvenlyWrappedLabel_Tests";
 			productReference = 0C06420AB576DA6B27DB1CA1645EBDC9 /* Pods_EvenlyWrappedLabel_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DA4215F855B71BFC408225FCC3F8E97B /* EvenlyWrappedLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2678E3E68FE75D32E3BF3BFB38DF932A /* Build configuration list for PBXNativeTarget "EvenlyWrappedLabel" */;
-			buildPhases = (
-				DDF5FDE8D7779A5C391FC923647447D4 /* Sources */,
-				AC834411F509523FFDA067103C18573F /* Frameworks */,
-				B278887F14180A3B9549E39240159220 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EvenlyWrappedLabel;
-			productName = EvenlyWrappedLabel;
-			productReference = 7C7A50AE6C4FE9B62AE7BBC8E5AFFB93 /* EvenlyWrappedLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E53FFEEEB0E3531E619FAA45751B20B0 /* Pods-EvenlyWrappedLabel_Example */ = {
@@ -309,7 +312,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA4215F855B71BFC408225FCC3F8E97B /* EvenlyWrappedLabel */,
+				05E4E104DA399DD0CC78DE20C8C5BFA3 /* EvenlyWrappedLabel */,
 				E53FFEEEB0E3531E619FAA45751B20B0 /* Pods-EvenlyWrappedLabel_Example */,
 				A33A1E4BBD71DD12DFDF46FADB6E3533 /* Pods-EvenlyWrappedLabel_Tests */,
 			);
@@ -325,20 +328,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C968D8D2F8523D58D95FCFBD27A79B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCA10DF69BB8632FD87F98C501958B0 /* EvenlyWrappedLabel-dummy.m in Sources */,
+				A71DCFC023322971562B208EA80D7C15 /* EvenlyWrappedLabel.swift in Sources */,
+				1471D290F5AF5A01485BB22DEBA633DD /* UILabelExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7790BEC904CA3163C8B7AE512B33276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BBBEEC6833F8D94526197B6C86945CC4 /* Pods-EvenlyWrappedLabel_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDF5FDE8D7779A5C391FC923647447D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1EE62BF02A77E50906FDE4153DDFCC0 /* EvenlyWrappedLabel-dummy.m in Sources */,
-				132C6A302E08822AE78219E71BDA4B43 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +352,7 @@
 		1BE1278120576A95C0534A09F68755BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EvenlyWrappedLabel;
-			target = DA4215F855B71BFC408225FCC3F8E97B /* EvenlyWrappedLabel */;
+			target = 05E4E104DA399DD0CC78DE20C8C5BFA3 /* EvenlyWrappedLabel */;
 			targetProxy = A9163593C54C2C01C5A91A1CD031DAEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,6 +388,41 @@
 				PRODUCT_NAME = Pods_EvenlyWrappedLabel_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11D76A858D95837B4F281153B1522BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640EE20A830F736BCB9C16710E94A26F /* EvenlyWrappedLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EvenlyWrappedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EvenlyWrappedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -473,76 +512,6 @@
 			};
 			name = Debug;
 		};
-		9D5D7378E67D6824343647C16D36B4B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EA68018BD9C933771D12239AF2A270D /* EvenlyWrappedLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EvenlyWrappedLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EvenlyWrappedLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC2CB9EDCC82015B32D59A8426A1391E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EA68018BD9C933771D12239AF2A270D /* EvenlyWrappedLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EvenlyWrappedLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EvenlyWrappedLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B015B5AB26A824E9A7FACABBCEE611B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4FF1C1938D5257B3BDAEFD96FB27861 /* Pods-EvenlyWrappedLabel_Tests.release.xcconfig */;
@@ -617,6 +586,41 @@
 			};
 			name = Release;
 		};
+		BF38C1246CA08B75C168418F358F9D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640EE20A830F736BCB9C16710E94A26F /* EvenlyWrappedLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EvenlyWrappedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EvenlyWrappedLabel/EvenlyWrappedLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EvenlyWrappedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -669,15 +673,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2678E3E68FE75D32E3BF3BFB38DF932A /* Build configuration list for PBXNativeTarget "EvenlyWrappedLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC2CB9EDCC82015B32D59A8426A1391E /* Debug */,
-				9D5D7378E67D6824343647C16D36B4B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -701,6 +696,15 @@
 			buildConfigurations = (
 				008C4870FD2118AF2CAC775A230F0198 /* Debug */,
 				B015B5AB26A824E9A7FACABBCEE611B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83019826C49E0DAB1FC612FD154F4A83 /* Build configuration list for PBXNativeTarget "EvenlyWrappedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D76A858D95837B4F281153B1522BF2 /* Debug */,
+				BF38C1246CA08B75C168418F358F9D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
