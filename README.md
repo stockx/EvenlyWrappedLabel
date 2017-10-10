@@ -90,7 +90,7 @@ class ViewController {
 ##### After:
 ![Interface Builder Screenshot - After](https://user-images.githubusercontent.com/2835199/31397444-12116842-adb4-11e7-9ee0-35e3017de74b.png)
 
-##(Optional) Use Every Line
+## (Optional) Use Every Line
 
 Set `label.useEveryLine = true` to spread the text across all `numberOfLines`, even if the text isn't long enough to do so by default.
 
