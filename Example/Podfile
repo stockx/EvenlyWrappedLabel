@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EvenlyWrappedLabel_Example' do
+  pod 'EvenlyWrappedLabel', :path => '../'
+
+  target 'EvenlyWrappedLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
