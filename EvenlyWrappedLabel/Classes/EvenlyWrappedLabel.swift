@@ -38,8 +38,42 @@ import UIKit
  
  */
 public class EvenlyWrappedLabel: UILabel {
+    /**
+     Set to true to force the text to take up every single line, even if the
+     text is short enough to fit on fewer lines.
+     
+     Example:
+
+     When numberOfLines = 3, and useEveryLine = true, the following text:
+     
+         This only takes up one line.
+     
+     Becomes:
+     
+         This only
+         takes up
+         one line.
+     
+     */
+    public var useEveryLine: Bool = false {
+        didSet {
+            if useEveryLine != oldValue {
+                invalidateIntrinsicContentSize()
+            }
+        }
+    }
+    
+    public override var intrinsicContentSize: CGSize {
+        guard shouldUseFontLineHeightAsMaxHeight == false else {
+            return CGSize(width: super.intrinsicContentSize.width,
+                          height: findMaxHeight)
+        }
+        
+        return super.intrinsicContentSize
+    }
+    
     public override func drawText(in rect: CGRect) {
-        let width = findMinimumWidth(maxHeight: sizeNeeded(for: frame.width).height,
+        let width = findMinimumWidth(maxHeight: findMaxHeight,
                                      maxWidth: frame.width,
                                      testWidth: frame.width / 2.0,
                                      minWidth: 0)
@@ -53,6 +87,22 @@ public class EvenlyWrappedLabel: UILabel {
         }
         
         super.drawText(in: CGRect(x: x, y: 0, width: width, height: frame.height))
+    }
+}
+
+private extension EvenlyWrappedLabel {
+    var shouldUseFontLineHeightAsMaxHeight: Bool {
+        return useEveryLine &&
+            numberOfLines > 0 &&
+            (font?.lineHeight ?? 0) > 0
+    }
+    
+    var findMaxHeight: CGFloat {
+        guard shouldUseFontLineHeightAsMaxHeight == false else {
+            return ((font?.lineHeight ?? 0) * CGFloat(numberOfLines)).rounded(.up)
+        }
+        
+        return sizeNeeded(for: frame.width).height
     }
     
     /**
