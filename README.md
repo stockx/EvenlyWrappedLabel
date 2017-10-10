@@ -50,40 +50,61 @@ Description
 - [x] Works with any number of lines and any text alignment.
 - [x] Works with autolayout and honors intrinsic sizing.
 - [x] Works with labels created in code and in Interface Builder.
+- [x] `useEveryLine` option to force shorter text to take up all available lines.
 - [x] Example app with lots of real-time configurations that lets you see the text wrap as you type.
 
-![Example Project Screenshot](https://user-images.githubusercontent.com/2835199/31397079-04d00874-adb3-11e7-9dd6-fb2878b760af.png)
+![Example Project Screenshot](https://user-images.githubusercontent.com/2835199/31405403-f41c28ea-adcc-11e7-9555-5459ae1794d9.png)
 
 <a name="usage"> Usage </a>
 --------------
 
+## Set up
+
 Swap any `UILabel` reference with `EvenlyWrappedLabel`:
 
-### In code
+#### In code
 -----
 
-#### Before:
+##### Before:
 ```swift
 class ViewController {
-	let label = UILabel()
+    let label = UILabel()
 }
 ```
 
-#### After:
+##### After:
 ```swift
+import EvenlyWrappedLabel
+
 class ViewController {
-	let label = EvenlyWrappedLabel()
+    let label = EvenlyWrappedLabel()
 }
 ```
 
-### In Interface Builder
+#### In Interface Builder
 -----
 
-#### Before:
+##### Before:
 ![Interface Builder Screenshot - Before](https://user-images.githubusercontent.com/2835199/31397446-12201e8c-adb4-11e7-8568-287da9f5205f.png)
 
-#### After:
+##### After:
 ![Interface Builder Screenshot - After](https://user-images.githubusercontent.com/2835199/31397444-12116842-adb4-11e7-9ee0-35e3017de74b.png)
+
+##(Optional) Use Every Line
+
+Set `label.useEveryLine = true` to spread the text across all `numberOfLines`, even if the text isn't long enough to do so by default.
+
+Example:
+
+- When `numberOfLines` = `3`, and `useEveryLine` = `true`, the following text:
+ 
+        This only takes up one line.
+ 
+    Becomes:
+ 
+        This only
+        takes up
+        one line.
 
 <a name="installation"> Installation </a>
 --------------
