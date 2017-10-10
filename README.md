@@ -1,4 +1,4 @@
-![EvenlyWrappedLabel Logo](https://user-images.githubusercontent.com/2835199/31394986-a90ab1e2-adad-11e7-814d-c8af655240aa.png)
+![EvenlyWrappedLabel Logo](https://user-images.githubusercontent.com/2835199/31397929-599676e8-adb5-11e7-86d9-026ec3a78575.png)
 
 ![Swift4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat")
 [![Platform](https://img.shields.io/cocoapods/p/EvenlyWrappedLabel.svg?style=flat)](http://cocoapods.org/pods/EvenlyWrappedLabel)
