@@ -17,7 +17,7 @@ Description
         This sentence has a lot of words on
         the top line.
  
- Becomes:
+    Becomes:
  
         This sentence has a lot
         of words on the top line.
@@ -27,7 +27,7 @@ Description
         This sentence has a single
         orphan.
  
- Becomes:
+    Becomes:
  
         This sentence has
         a single orphan.
