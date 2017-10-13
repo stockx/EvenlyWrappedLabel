@@ -8,7 +8,7 @@
 Description
 --------------
 
-`EvenlyWrappedLabel` is a `UILabel` subclass that will vertically distribute text evenly across any number of lines, preventing text from grouping up at the top and also preventing single word orphans from taking up the entire bottom line.
+`EvenlyWrappedLabel` is a `UILabel` subclass that will vertically distribute text or attributed text evenly across any number of lines, preventing text from grouping up at the top and also preventing single word orphans from taking up the entire bottom line.
  
  Examples:
  
@@ -47,7 +47,7 @@ Description
 
 - [x] Works with all devices running iOS 9+.
 - [x] Uses `drawText(in:)` internally (as opposed to creating subviews), so any `UILabel` reference can be replaced with `EvenlyWrappedLabel` and Everything Will Just Work™.
-- [x] Works with any number of lines and any text alignment.
+- [x] Works with any number of lines, any text alignment and attributed text.
 - [x] Works with autolayout and honors intrinsic sizing.
 - [x] Works with labels created in code and in Interface Builder.
 - [x] `useEveryLine` option to force shorter text to take up all available lines.

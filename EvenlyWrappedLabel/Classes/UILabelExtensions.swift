@@ -9,16 +9,24 @@
 import UIKit
 
 extension UILabel {
-    /** Returns the size needed to display 'text' for the given width. */
+    /**
+     Returns the size needed to display 'attributedText' or 'text' for the
+     given width.
+     */
     func sizeNeeded(for width: CGFloat) -> CGSize {
-        guard let text = text,
-            text != "" else {
-                return .zero
+        let size = CGSize(width: width, height: .greatestFiniteMagnitude)
+        let options: NSStringDrawingOptions = .usesLineFragmentOrigin
+        
+        if let attributedText = attributedText,
+            attributedText.string.count > 0 {
+            return attributedText.boundingRect(with: size, options: options, context: nil).size
         }
         
-        return text.boundingRect(with: CGSize(width: width, height: .greatestFiniteMagnitude),
-                                 options: .usesLineFragmentOrigin,
-                                 attributes: [.font: font],
-                                 context: nil).size
+        if let text = text,
+            text.count > 0 {
+            return text.boundingRect(with: size, options: options, attributes: [.font: font], context: nil).size
+        }
+        
+        return .zero
     }
 }
