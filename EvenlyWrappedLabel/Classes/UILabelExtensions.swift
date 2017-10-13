@@ -12,21 +12,31 @@ extension UILabel {
     /**
      Returns the size needed to display 'attributedText' or 'text' for the
      given width.
+     
+     Note: we need to know if the intent was to use attributed text sizing
+     or normal text sizing that way we use the correct boundingRect method and
+     we get the correct sizing.
      */
-    func sizeNeeded(for width: CGFloat) -> CGSize {
+    func sizeNeeded(for width: CGFloat, isUsingAttributedText: Bool) -> CGSize {
+        let resultingSize: CGSize
+        
         let size = CGSize(width: width, height: .greatestFiniteMagnitude)
         let options: NSStringDrawingOptions = .usesLineFragmentOrigin
         
-        if let attributedText = attributedText,
+        if isUsingAttributedText,
+            let attributedText = attributedText,
             attributedText.string.count > 0 {
-            return attributedText.boundingRect(with: size, options: options, context: nil).size
+            resultingSize = attributedText.boundingRect(with: size, options: options, context: nil).size
         }
-        
-        if let text = text,
+        else if let text = text,
             text.count > 0 {
-            return text.boundingRect(with: size, options: options, attributes: [.font: font], context: nil).size
+            resultingSize = text.boundingRect(with: size, options: options, attributes: [.font: font], context: nil).size
+        }
+        else {
+            resultingSize = .zero
         }
         
-        return .zero
+        return CGSize(width: ceil(resultingSize.width),
+                      height: ceil(resultingSize.height))
     }
 }

@@ -63,6 +63,8 @@ public class EvenlyWrappedLabel: UILabel {
         }
     }
     
+    private var isUsingAttributedText = false
+    
     public override var intrinsicContentSize: CGSize {
         guard shouldUseFontLineHeightAsMaxHeight == false else {
             return CGSize(width: super.intrinsicContentSize.width,
@@ -88,6 +90,18 @@ public class EvenlyWrappedLabel: UILabel {
         
         super.drawText(in: CGRect(x: x, y: 0, width: width, height: frame.height))
     }
+    
+    public override var text: String? {
+        willSet {
+            isUsingAttributedText = false
+        }
+    }
+    
+    public override var attributedText: NSAttributedString? {
+        willSet {
+            isUsingAttributedText = true
+        }
+    }
 }
 
 private extension EvenlyWrappedLabel {
@@ -102,7 +116,7 @@ private extension EvenlyWrappedLabel {
             return ((font?.lineHeight ?? 0) * CGFloat(numberOfLines)).rounded(.up)
         }
         
-        return sizeNeeded(for: frame.width).height
+        return sizeNeeded(for: frame.width, isUsingAttributedText: isUsingAttributedText).height
     }
     
     /**
@@ -114,7 +128,7 @@ private extension EvenlyWrappedLabel {
         let widthCannotShrink = (maxWidth <= testWidth + granularity) || (attributedText?.string ?? text)?.count == 1
         
         guard widthCannotShrink else {
-            let canDecreaseWidthFurther = sizeNeeded(for: testWidth).height <= maxHeight
+            let canDecreaseWidthFurther = sizeNeeded(for: testWidth, isUsingAttributedText: isUsingAttributedText).height <= maxHeight
             
             guard canDecreaseWidthFurther else {
                 let increasedTestWidth = testWidth + (0.5 * (maxWidth - testWidth))
