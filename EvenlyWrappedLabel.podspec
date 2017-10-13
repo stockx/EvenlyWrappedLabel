@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EvenlyWrappedLabel'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.screenshot       = 'https://user-images.githubusercontent.com/2835199/31405403-f41c28ea-adcc-11e7-9555-5459ae1794d9.png'
   s.summary          = 'EvenlyWrappedLabel vertically distributes text evenly across any number of lines, preventing orphans and text from grouping up at the top.'
   s.description      = <<-DESC
